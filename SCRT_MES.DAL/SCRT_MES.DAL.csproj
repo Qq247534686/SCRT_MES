@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{496297BC-503C-48EE-BEE6-0151F9149BBF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>SCRT_MES.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=1.50.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.2\lib\net45\Dapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="sapnco, Version=3.0.0.42, Culture=neutral, PublicKeyToken=50436dca5c7f7d23, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\sapnco.dll</HintPath>
+    </Reference>
+    <Reference Include="sapnco_utils, Version=3.0.0.42, Culture=neutral, PublicKeyToken=50436dca5c7f7d23, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\sapnco_utils.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Binmatrnrecord_DAL.cs" />
+    <Compile Include="Bin_DAL.cs" />
+    <Compile Include="CargoConfig_DAL.cs" />
+    <Compile Include="DataView_DAL.cs" />
+    <Compile Include="DataInteraction_DAL.cs" />
+    <Compile Include="Home_DAL.cs" />
+    <Compile Include="InventoryBalance_DAL.cs" />
+    <Compile Include="NewChartView_DAL.cs" />
+    <Compile Include="Operation_DAL.cs" />
+    <Compile Include="PageData_DAL.cs" />
+    <Compile Include="Plant_DAL.cs" />
+    <Compile Include="ProblemAnalysis_DAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PullTransportation_DAL.cs" />
+    <Compile Include="Rfid_bound_DAL.cs" />
+    <Compile Include="Rfid_tag_DAL.cs" />
+    <Compile Include="RoleInfo_DAL.cs" />
+    <Compile Include="RunRfidCollections_DAL.cs" />
+    <Compile Include="SapncoClient.cs" />
+    <Compile Include="SAPRecord_DAL.cs" />
+    <Compile Include="Stock_DAL.cs" />
+    <Compile Include="UserInfo_DAL.cs" />
+    <Compile Include="Web References\sapService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\sapService\document.wsdl" />
+    <None Include="Web References\sapService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\sapService\ZmmfRfidWsResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://190.1.10.135:8000/sap/bc/srt/wsdl/srvc_5A04274FCB3A0B80E1008000BE010A87/wsdl11/allinone/ws_policy/document%3fsap-client=330">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\sapService\</RelPath>
+      <UpdateFromURL>http://190.1.10.135:8000/sap/bc/srt/wsdl/srvc_5A04274FCB3A0B80E1008000BE010A87/wsdl11/allinone/ws_policy/document%3fsap-client=330</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>rfidSystem_DAL_sapService_ZMMRFIDSER</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SCRT_MES.Factory\SCRT_MES.Factory.csproj">
+      <Project>{6e839f77-9cba-4228-82ae-d2b648e0b2f7}</Project>
+      <Name>SCRT_MES.Factory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCRT_MES.IMode\SCRT_MES.IMode.csproj">
+      <Project>{a1f4af87-bb92-4955-9387-4588d55e4b57}</Project>
+      <Name>SCRT_MES.IMode</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCRT_MES.Model\SCRT_MES.Model.csproj">
+      <Project>{0c791eb2-8bef-4b0e-8336-98cedd113fd6}</Project>
+      <Name>SCRT_MES.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCRT_MES.Utilities\SCRT_MES.Utilities.csproj">
+      <Project>{76ea3048-a0ac-467b-b7c2-25c3d685799e}</Project>
+      <Name>SCRT_MES.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

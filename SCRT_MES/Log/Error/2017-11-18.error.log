@@ -1,0 +1,306 @@
+
+
+
+ 记录时间：2017-11-18 11:52:08,753 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：请求页面报错 
+
+System.Data.DataException: Error parsing column 6 (bin=B001 - String) ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 Deserializefba9ae20-abef-4b08-846f-473db1bc3ea7(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value)
+   在 Deserializefba9ae20-abef-4b08-846f-473db1bc3ea7(IDataReader )
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlQuery[T](String sql, Object obj) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.Factory\SqlHelps.cs:行号 108
+   在 DAL.Rfid_bound_DAL.GetTableData(StoreParams store, Int32 thisID, Int32& count) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.DAL\Rfid_bound_DAL.cs:行号 44
+   在 BLL.Rfid_bound_BLL.GetTableData(StoreParams storeParams, Int32 thisID, Int32& count) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.BLL\Rfid_bound_BLL.cs:行号 41
+   在 rfidSystem.Controllers.TagBindController.GetTableDataToId(StoreParams storeParams) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem\Controllers\TagBindController.cs:行号 42
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2017-11-18 11:52:10,987 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：请求页面报错 
+
+System.Data.DataException: Error parsing column 6 (bin=B001 - String) ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 Deserializefba9ae20-abef-4b08-846f-473db1bc3ea7(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value)
+   在 Deserializefba9ae20-abef-4b08-846f-473db1bc3ea7(IDataReader )
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlQuery[T](String sql, Object obj) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.Factory\SqlHelps.cs:行号 108
+   在 DAL.Rfid_bound_DAL.GetTableData(StoreParams store, Int32 thisID, Int32& count) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.DAL\Rfid_bound_DAL.cs:行号 44
+   在 BLL.Rfid_bound_BLL.GetTableData(StoreParams storeParams, Int32 thisID, Int32& count) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.BLL\Rfid_bound_BLL.cs:行号 41
+   在 rfidSystem.Controllers.TagBindController.GetTableData(StoreParams storeParams) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem\Controllers\TagBindController.cs:行号 50
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2017-11-18 11:52:21,999 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：请求页面报错 
+
+System.Data.DataException: Error parsing column 6 (bin=B001 - String) ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 Deserializefba9ae20-abef-4b08-846f-473db1bc3ea7(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value)
+   在 Deserializefba9ae20-abef-4b08-846f-473db1bc3ea7(IDataReader )
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlQuery[T](String sql, Object obj) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.Factory\SqlHelps.cs:行号 108
+   在 DAL.Rfid_bound_DAL.GetTableData(StoreParams store, Int32 thisID, Int32& count) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.DAL\Rfid_bound_DAL.cs:行号 44
+   在 BLL.Rfid_bound_BLL.GetTableData(StoreParams storeParams, Int32 thisID, Int32& count) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.BLL\Rfid_bound_BLL.cs:行号 41
+   在 rfidSystem.Controllers.TagBindController.GetTableData(StoreParams storeParams) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem\Controllers\TagBindController.cs:行号 50
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2017-11-18 11:52:52,743 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：请求页面报错 
+
+System.Data.DataException: Error parsing column 6 (bin=B001 - String) ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 Deserializefba9ae20-abef-4b08-846f-473db1bc3ea7(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value)
+   在 Deserializefba9ae20-abef-4b08-846f-473db1bc3ea7(IDataReader )
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlQuery[T](String sql, Object obj) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.Factory\SqlHelps.cs:行号 108
+   在 DAL.Rfid_bound_DAL.GetTableData(StoreParams store, Int32 thisID, Int32& count) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.DAL\Rfid_bound_DAL.cs:行号 44
+   在 BLL.Rfid_bound_BLL.GetTableData(StoreParams storeParams, Int32 thisID, Int32& count) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.BLL\Rfid_bound_BLL.cs:行号 41
+   在 rfidSystem.Controllers.TagBindController.GetTableDataToId(StoreParams storeParams) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem\Controllers\TagBindController.cs:行号 42
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2017-11-18 11:54:27,457 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：请求页面报错 
+
+System.Data.DataException: Error parsing column 6 (bin=B001 - String) ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 Deserializefba9ae20-abef-4b08-846f-473db1bc3ea7(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value)
+   在 Deserializefba9ae20-abef-4b08-846f-473db1bc3ea7(IDataReader )
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlQuery[T](String sql, Object obj) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.Factory\SqlHelps.cs:行号 108
+   在 DAL.Rfid_bound_DAL.GetTableData(StoreParams store, Int32 thisID, Int32& count) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.DAL\Rfid_bound_DAL.cs:行号 44
+   在 BLL.Rfid_bound_BLL.GetTableData(StoreParams storeParams, Int32 thisID, Int32& count) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.BLL\Rfid_bound_BLL.cs:行号 41
+   在 rfidSystem.Controllers.TagBindController.GetTableData(StoreParams storeParams) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem\Controllers\TagBindController.cs:行号 50
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2017-11-18 11:55:49,757 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：请求页面报错 
+
+System.Data.DataException: Error parsing column 6 (bin=B001 - String) ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 Deserializee3475cca-7fc3-4e3e-a0af-9238d2f030ff(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value)
+   在 Deserializee3475cca-7fc3-4e3e-a0af-9238d2f030ff(IDataReader )
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlQuery[T](String sql, Object obj) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.Factory\SqlHelps.cs:行号 108
+   在 DAL.Rfid_bound_DAL.GetTableData(StoreParams store, Int32 thisID, Int32& count) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.DAL\Rfid_bound_DAL.cs:行号 44
+   在 BLL.Rfid_bound_BLL.GetTableData(StoreParams storeParams, Int32 thisID, Int32& count) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.BLL\Rfid_bound_BLL.cs:行号 41
+   在 rfidSystem.Controllers.TagBindController.GetTableData(StoreParams storeParams) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem\Controllers\TagBindController.cs:行号 50
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2017-11-18 11:56:27,411 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：请求页面报错 
+
+System.Data.DataException: Error parsing column 6 (bin=B001 - String) ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 Deserialize33fac231-1f53-4981-9531-94d9f92b3280(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value)
+   在 Deserialize33fac231-1f53-4981-9531-94d9f92b3280(IDataReader )
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlQuery[T](String sql, Object obj) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.Factory\SqlHelps.cs:行号 108
+   在 DAL.Rfid_bound_DAL.GetTableData(StoreParams store, Int32 thisID, Int32& count) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.DAL\Rfid_bound_DAL.cs:行号 44
+   在 BLL.Rfid_bound_BLL.GetTableData(StoreParams storeParams, Int32 thisID, Int32& count) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.BLL\Rfid_bound_BLL.cs:行号 41
+   在 rfidSystem.Controllers.TagBindController.GetTableDataToId(StoreParams storeParams) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem\Controllers\TagBindController.cs:行号 42
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+
+
+
+ 记录时间：2017-11-18 11:57:55,859 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：请求页面报错 
+
+System.Data.DataException: Error parsing column 6 (bin=B001 - String) ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 Deserialize52da77ab-3a26-4c21-9bfc-632ff3233366(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value)
+   在 Deserialize52da77ab-3a26-4c21-9bfc-632ff3233366(IDataReader )
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlQuery[T](String sql, Object obj) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.Factory\SqlHelps.cs:行号 108
+   在 DAL.Rfid_bound_DAL.GetTableData(StoreParams store, Int32 thisID, Int32& count) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.DAL\Rfid_bound_DAL.cs:行号 44
+   在 BLL.Rfid_bound_BLL.GetTableData(StoreParams storeParams, Int32 thisID, Int32& count) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.BLL\Rfid_bound_BLL.cs:行号 41
+   在 rfidSystem.Controllers.TagBindController.GetTableData(StoreParams storeParams) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem\Controllers\TagBindController.cs:行号 50
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)

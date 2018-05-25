@@ -1,0 +1,106 @@
+
+
+
+ 记录时间：2017-11-13 16:17:51,550 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): Column count doesn't match value count at row 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-11-13 17:03:40,763 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-11-13 17:04:55,918 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-11-13 17:05:32,561 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-11-13 17:06:34,998 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-11-13 17:10:26,334 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-11-13 17:11:06,877 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 d:\我的文档\Visual Studio 2012\Projects\rfidSystem\rfidSystem.Factory\SqlHelps.cs:行号 37

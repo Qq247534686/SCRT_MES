@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+
+  <object type="BLL.Home_BLL, SCRT_MES.BLL" singleton="false" name="Home_BLL">
+    <property name="dal" ref="Home_DAL" />
+  </object>
+
+  <object type="BLL.UserInfo_BLL, SCRT_MES.BLL" singleton="false" name="UserInfo_BLL">
+    <property name="dal" ref="UserInfo_DAL" />
+  </object>
+
+  <object type="BLL.RoleInfo_BLL, SCRT_MES.BLL" singleton="false" name="RoleInfo_BLL">
+    <property name="dal" ref="RoleInfo_DAL" />
+  </object>
+
+  <object type="BLL.Rfid_bound_BLL, SCRT_MES.BLL" singleton="false" name="Rfid_bound_BLL">
+    <property name="dal" ref="Rfid_bound_DAL" />
+  </object>
+
+  <object type="BLL.Rfid_tag_BLL, SCRT_MES.BLL" singleton="false" name="Rfid_tag_BLL">
+    <property name="dal" ref="Rfid_tag_DAL" />
+  </object>
+
+  <object type="BLL.UserInfo_BLL, SCRT_MES.BLL" singleton="false" name="NewUserInfo_BLL">
+    <property name="dal" ref="UserInfo_DAL" />
+  </object>
+
+  <object type="BLL.SAPRecord_BLL, SCRT_MES.BLL" singleton="false" name="SAPRecord_BLL">
+    <property name="dal" ref="SAPRecord_DAL" />
+  </object>
+
+  <object type="BLL.CargoConfig_BLL, SCRT_MES.BLL" singleton="false" name="CargoConfig_BLL">
+    <property name="dal" ref="CargoConfig_DAL" />
+  </object>
+
+  <object type="BLL.Bin_BLL, SCRT_MES.BLL" singleton="false" name="Bin_BLL">
+    <property name="dal" ref="Bin_DAL" />
+  </object>
+
+  <object type="BLL.Stock_BLL, SCRT_MES.BLL" singleton="false" name="Stock_BLL">
+    <property name="dal" ref="Stock_DAL" />
+  </object>
+
+  <object type="BLL.Plant_BLL, SCRT_MES.BLL" singleton="false" name="Plant_BLL">
+    <property name="dal" ref="Plant_DAL" />
+  </object>
+
+  <object type="BLL.Operation_BLL, SCRT_MES.BLL" singleton="false" name="Operation_BLL">
+    <property name="dal" ref="Operation_DAL" />
+  </object>
+
+  <object type="BLL.Operation_BLL, SCRT_MES.BLL" singleton="false" name="BllOperation">
+    <property name="dal" ref="Operation_DAL" />
+  </object>
+
+  <object type="BLL.Binmatrnrecord_BLL, SCRT_MES.BLL" singleton="false" name="Binmatrnrecord_BLL">
+    <property name="dal" ref="Binmatrnrecord_DAL" />
+  </object>
+
+  <object type="BLL.ProblemAnalysis_BLL, SCRT_MES.BLL" singleton="false" name="ProblemAnalysis_BLL">
+    <property name="dal" ref="ProblemAnalysis_DAL" />
+  </object>
+
+  <object type="BLL.InventoryBalance_BLL, SCRT_MES.BLL" singleton="false" name="InventoryBalance_BLL">
+    <property name="dal" ref="InventoryBalance_DAL" />
+  </object>
+
+  <object type="BLL.PullTransportation_BLL, SCRT_MES.BLL" singleton="false" name="PullTransportation_BLL">
+    <property name="dal" ref="PullTransportation_DAL" />
+  </object>
+  <!--<object type="BLL.NewChartView_BLL, SCRT_MES.BLL" singleton="false" name="NewChartView_BLL">
+    <property name="dal" ref="NewChartView_DAL" />
+  </object>-->
+  <!--<object type="BLL.DataInteraction_BLL, SCRT_MES.BLL" singleton="false">
+    <property name="dal" ref="DataInteraction_DAL" />
+  </object>
+
+  <object type="BLL.PageData_BLL, SCRT_MES.BLL" singleton="false">
+    <property name="dal" ref="PageData_DAL" />
+  </object>-->
+</objects>

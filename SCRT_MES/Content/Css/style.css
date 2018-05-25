@@ -1,0 +1,68 @@
+body{
+    background:#454444;
+}
+
+.block_title{
+    color:white;
+    padding:0 0.2em;
+    font-family:'Microsoft JhengHei';
+}
+
+.bin_box{
+    
+    color:white;
+    padding:2.2em;
+    border:0.1em solid #454444;
+}
+
+.bin_box_blue{
+    background-color: #0088df;
+}
+
+.bin_box_green{
+    background-color: #119100;
+}
+
+.bin_box_red{
+    background-color:#ff4242;
+}
+
+.bin_box_deepblue{
+    background-color:#0251e3;
+}
+
+.bin_box_orange{
+    background-color:#ff4e00;
+}
+
+.bin_box_purple{
+    background-color:#b701be;
+}
+
+.bin_box_gray{
+    background-color:#00b5b3;
+}
+
+.bin_box_title{
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+.num_box {
+    font-size:3.5em;
+    font-weight:bold;
+    text-align:center;
+}
+
+.msg_box{
+    text-align:right;
+    font-size:2em;
+    list-style: none;
+    margin-top:0.1em;
+    font-weight:bold;
+}
+
+.msg_main_box {
+    margin-top:0.8em;
+}
+

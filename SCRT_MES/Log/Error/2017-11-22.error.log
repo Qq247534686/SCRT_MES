@@ -1,0 +1,34 @@
+
+
+
+ 记录时间：2017-11-22 20:03:16,733 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：sap 
+
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 190.1.10.135:8000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 DAL.sapService.ZMMRFIDSER.ZmmfRfidWs(ZmmfRfidWs ZmmfRfidWs1) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_sap\rfidSystem\rfidSystem.DAL\Web References\sapService\Reference.cs:行号 80
+   在 DAL.DataInteraction_DAL.DataMethod(RfidCollections rfidKey, String& action) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_sap\rfidSystem\rfidSystem.DAL\DataInteraction_DAL.cs:行号 71
+
+
+
+ 记录时间：2017-11-22 20:06:18,699 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：sap 
+
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 190.1.10.135:8000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 DAL.sapService.ZMMRFIDSER.ZmmfRfidWs(ZmmfRfidWs ZmmfRfidWs1) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_sap\rfidSystem\rfidSystem.DAL\Web References\sapService\Reference.cs:行号 80
+   在 DAL.DataInteraction_DAL.DataMethod(RfidCollections rfidKey, String& action) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_sap\rfidSystem\rfidSystem.DAL\DataInteraction_DAL.cs:行号 71

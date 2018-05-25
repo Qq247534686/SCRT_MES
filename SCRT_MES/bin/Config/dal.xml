@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+
+  <object type="DAL.UserInfo_DAL, SCRT_MES.DAL" singleton="false" name="UserInfo_DAL">
+  </object>
+
+  <object type="DAL.Home_DAL, SCRT_MES.DAL" singleton="false" name="Home_DAL">
+  </object>
+
+  <object type="DAL.Rfid_bound_DAL, SCRT_MES.DAL" singleton="false" name="Rfid_bound_DAL">
+  </object>
+
+  <object type="DAL.Rfid_tag_DAL, SCRT_MES.DAL" singleton="false" name="Rfid_tag_DAL">
+  </object>
+
+  <object type="DAL.RoleInfo_DAL, SCRT_MES.DAL" singleton="false" name="RoleInfo_DAL">
+  </object>
+
+  <object type="DAL.SAPRecord_DAL, SCRT_MES.DAL" singleton="false" name="SAPRecord_DAL">
+  </object>
+
+  <object type="DAL.CargoConfig_DAL, SCRT_MES.DAL" singleton="false" name="CargoConfig_DAL">
+  </object>
+
+  <object type="DAL.Bin_DAL, SCRT_MES.DAL" singleton="false" name="Bin_DAL">
+  </object>
+
+  <object type="DAL.Stock_DAL, SCRT_MES.DAL" singleton="false" name="Stock_DAL">
+  </object>
+
+  <object type="DAL.Plant_DAL, SCRT_MES.DAL" singleton="false" name="Plant_DAL">
+  </object>
+
+  <object type="DAL.Operation_DAL, SCRT_MES.DAL" singleton="false" name="Operation_DAL">
+  </object>
+
+  <object type="DAL.Binmatrnrecord_DAL, SCRT_MES.DAL" singleton="false" name="Binmatrnrecord_DAL">
+  </object>
+
+  <object type="DAL.ProblemAnalysis_DAL, SCRT_MES.DAL" singleton="false" name="ProblemAnalysis_DAL">
+  </object>
+
+  <object type="DAL.InventoryBalance_DAL, SCRT_MES.DAL" singleton="false" name="InventoryBalance_DAL">
+  </object>
+
+  <object type="DAL.PullTransportation_DAL, SCRT_MES.DAL" singleton="false" name="PullTransportation_DAL">
+  </object>
+  <!--<object type="DAL.NewChartView_DAL, SCRT_MES.DAL" singleton="false" name="NewChartView_DAL">
+  </object>-->
+  <!--<object type="DAL.DataInteraction_DAL, SCRT_MES.DAL" singleton="false" name="DataInteraction_DAL">
+  </object>
+
+  <object type="DAL.PageData_DAL, SCRT_MES.DAL" singleton="false" name="PageData_DAL">
+  </object>-->
+  <!--intentionally do NOT register the AccountController or the ValuesController with the container; demonstrates that the underlying
+  default controller factory will properly (attempt to!) resolve all controllers not registered with Spring.NET
+  using its default controller resolution behavoir-->
+  <!--<object type="Spring.Mvc4QuickStart.Controllers.AccountController, Spring.Mvc4QuickStart" singleton="false" />-->
+  <!--<object type="Spring.Mvc4QuickStart.Controllers.ValuesController, Spring.Mvc4QuickStart" singleton="false" />-->
+</objects>

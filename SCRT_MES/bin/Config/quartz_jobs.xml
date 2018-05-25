@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData">
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+
+  <schedule>
+    <job>
+      <name>sampleJob</name>
+      <group>sampleGroup</group>
+      <description>Sample job for Quartz Server</description>
+      <job-type>App.QuartzWorkRecord,SCRT_MES.App</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>sampleSimpleTrigger</name>
+        <group>sampleSimpleGroup</group>
+        <job-name>sampleJob</job-name>
+        <job-group>sampleGroup</job-group>
+        <cron-expression>0 0/30 * * * ?</cron-expression>
+        <!--*/5 * * * * ?-->
+      </cron>
+    </trigger>
+  </schedule>
+</job-scheduling-data>
+<!--
+  IScheduler sched = schedf.GetScheduler();
+  //2.创建出来一个具体的作业
+  IJobDetail job = JobBuilder.Create<QuartzWorkRecord>().Build();
+  //3.创建并配置一个触发器
+  ISimpleTrigger trigger = (ISimpleTrigger)TriggerBuilder.Create().WithSimpleSchedule(x => x.WithIntervalInSeconds(5).WithRepeatCount(int.MaxValue)).Build();
+  //4.加入作业调度池中
+  sched.ScheduleJob(job, trigger);
+  //5.开始运行
+  sched.Start();
+-->

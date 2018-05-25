@@ -1,0 +1,71 @@
+﻿body
+{
+    background: url("../../Content/Images/loginBg.png") no-repeat top center #016ba9;
+}
+
+.x-body
+{
+    margin-top: 278px;
+}
+
+#LoginForm
+{
+    margin: auto;
+}
+
+.x-panel-body
+{
+    background: none;
+    border: none;
+}
+
+#x-form-el-username, #x-form-el-passwd
+{
+    padding-left: 64px!important;
+}
+
+.x-form-item-label
+{
+    width: 64px!important;
+}
+
+.x-form-item-label
+{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#Button1-btnInnerEl, #Button2-btnInnerEl
+{
+    height: 18px;
+    width: 49px;
+    text-align: center;
+    /*background-image:url(/images/loginBtn.png);*/
+    color: black;
+    font-weight: 200;
+    background-repeat: no-repeat;
+}
+
+#Button1-btnEl, #Button2-btnEl
+{
+    /*background-color: black;*/
+}
+
+#Button1
+{
+    padding: 0;
+    /*background-color: black;*/
+    border: none;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+#Button2
+{
+    padding: 0;
+    /*background-color: black;*/
+    border: none;
+    margin-left: 30px;
+    margin-top: 10px;
+}

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4C6F7884-F809-45C6-B6A4-4F0AE0C08B6E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLL</RootNamespace>
+    <AssemblyName>SCRT_MES.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Binmatrnrecord_BLL.cs" />
+    <Compile Include="Bin_BLL.cs" />
+    <Compile Include="CargoConfig_BLL.cs" />
+    <Compile Include="DataView_BLL.cs" />
+    <Compile Include="DataInteraction_BLL.cs" />
+    <Compile Include="Home_BLL.cs" />
+    <Compile Include="InventoryBalance_BLL.cs" />
+    <Compile Include="NewChartView_BLL.cs" />
+    <Compile Include="Operation_BLL.cs" />
+    <Compile Include="PageData_BLL.cs" />
+    <Compile Include="Plant_BLL.cs" />
+    <Compile Include="ProblemAnalysis_BLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PullTransportation_BLL.cs" />
+    <Compile Include="Rfid_bound_BLL.cs" />
+    <Compile Include="Rfid_tag_BLL.cs" />
+    <Compile Include="RoleInfo_BLL.cs" />
+    <Compile Include="SAPRecord_BLL.cs" />
+    <Compile Include="Stock_BLL.cs" />
+    <Compile Include="UserInfo_BLL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SCRT_MES.DAL\SCRT_MES.DAL.csproj">
+      <Project>{496297bc-503c-48ee-bee6-0151f9149bbf}</Project>
+      <Name>SCRT_MES.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCRT_MES.Factory\SCRT_MES.Factory.csproj">
+      <Project>{6e839f77-9cba-4228-82ae-d2b648e0b2f7}</Project>
+      <Name>SCRT_MES.Factory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCRT_MES.IMode\SCRT_MES.IMode.csproj">
+      <Project>{a1f4af87-bb92-4955-9387-4588d55e4b57}</Project>
+      <Name>SCRT_MES.IMode</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCRT_MES.Model\SCRT_MES.Model.csproj">
+      <Project>{0c791eb2-8bef-4b0e-8336-98cedd113fd6}</Project>
+      <Name>SCRT_MES.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

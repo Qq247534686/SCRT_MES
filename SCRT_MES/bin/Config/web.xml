@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+
+  <object  type="App.Controllers.HomeController, SCRT_MES.App" singleton="false">
+    <property name="bll" ref="Home_BLL" />
+  </object>
+
+  <object  type="App.Controllers.LoginController,SCRT_MES.App" singleton="false">
+    <property name="bll" ref="UserInfo_BLL" />
+  </object>
+
+  <object  type="App.Controllers.RoleInfoController, SCRT_MES.App" singleton="false">
+    <property name="bll" ref="RoleInfo_BLL" />
+  </object>
+
+  <object  type="App.Controllers.TagBindController, SCRT_MES.App" singleton="false">
+    <property name="bll" ref="Rfid_bound_BLL" />
+  </object>
+
+  <object  type="App.Controllers.TagManageController, SCRT_MES.App" singleton="false">
+    <property name="bll" ref="Rfid_tag_BLL" />
+    <property name="bllOperation" ref="BllOperation" />
+  </object>
+
+  <object  type="App.Controllers.UserInfoController, SCRT_MES.App" singleton="false">
+    <property name="bll" ref="NewUserInfo_BLL" />
+  </object>
+
+  <object  type="App.Controllers.SAPRecordController, SCRT_MES.App" singleton="false">
+    <property name="bll" ref="SAPRecord_BLL" />
+  </object>
+
+  <object  type="App.Controllers.CargoConfigController, SCRT_MES.App" singleton="false">
+    <property name="bll" ref="CargoConfig_BLL" />
+  </object>
+
+  <object  type="App.Controllers.BinConfigController, SCRT_MES.App" singleton="false">
+    <property name="bll" ref="Bin_BLL" />
+  </object>
+
+  <object  type="App.Controllers.StockController, SCRT_MES.App" singleton="false">
+    <property name="bll" ref="Stock_BLL" />
+  </object>
+
+  <object  type="App.Controllers.PlantController, SCRT_MES.App" singleton="false">
+    <property name="bll" ref="Plant_BLL" />
+  </object>
+
+  <object  type="App.Controllers.OperationController, SCRT_MES.App" singleton="false">
+    <property name="bll" ref="Operation_BLL" />
+  </object>
+
+  <object  type="App.Controllers.kLineController, SCRT_MES.App" singleton="false">
+    <property name="bll" ref="Binmatrnrecord_BLL" />
+  </object>
+
+  <object  type="App.Controllers.ProblemAnalysisController, SCRT_MES.App" singleton="false">
+    <property name="bll" ref="ProblemAnalysis_BLL" />
+  </object>
+
+  <object  type="App.Controllers.InventoryBalanceController, SCRT_MES.App" singleton="false">
+    <property name="bll" ref="InventoryBalance_BLL" />
+  </object>
+
+  <object  type="App.Controllers.PullTransportationController, SCRT_MES.App" singleton="false">
+    <property name="bll" ref="PullTransportation_BLL" />
+  </object>
+  <!--<object  type="App.Controllers.NewChartViewController, SCRT_MES.App" singleton="false">
+    <property name="bll" ref="NewChartView_BLL" />
+  </object>-->
+  <!--<object  type="SCRT_MES.App.DataInteraction, SCRT_MES.App" singleton="false">
+    <property name="bll" ref="DataInteraction_BLL" />
+    <property name="pageData" ref="PageData_BLL" />
+  </object>-->
+  <!--intentionally do NOT register the AccountController or the ValuesController with the container; demonstrates that the underlying
+  default controller factory will properly (attempt to!) resolve all controllers not registered with Spring.NET
+  using its default controller resolution behavoir-->
+  <!--<object type="Spring.Mvc4QuickStart.Controllers.AccountController, Spring.Mvc4QuickStart" singleton="false" />-->
+  <!--<object type="Spring.Mvc4QuickStart.Controllers.ValuesController, Spring.Mvc4QuickStart" singleton="false" />-->
+</objects>

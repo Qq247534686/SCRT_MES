@@ -1,0 +1,59 @@
+﻿html, body
+{
+    height: 100%;
+    margin: 0px;
+    background-color: white;
+    font-family: "微软雅黑";
+    color: black;
+}
+
+.tab
+{
+    border-collapse: collapse;
+    border: 3px solid #61a0a8;
+    width: 92%;
+    font-size:0.8em;
+    text-align: center;
+    height: 100%;
+}
+
+    .tab th
+    {
+        background:#61a0a8;
+        color:white;
+        font-weight:bold;
+        font-size:1.5em;
+    }
+
+    .tab td,.tab th
+    {
+        border-color:#61a0a8;
+        border-left: 3px solid #61a0a8;
+        border-right: 3px solid #61a0a8;
+        border-top: 3px solid #61a0a8;
+    }
+    .tab td {
+        border-style:dotted;
+        border-width:1px;
+        border-color:gray;
+        height:50%;
+    
+    }
+.total_box {
+    padding:10%;
+    background:url("../../Content/Images/tbbg1.png") no-repeat center center;
+    background-size:2em 1.7em;
+    color:white;
+    font-size:2em;
+    font-weight:bold;
+}
+
+.transport_icon {
+
+  
+    float:left;
+    width:1.4em;
+    margin-left:0.5em;
+    margin-top:0.25em;
+    margin-bottom:0.25em;
+}

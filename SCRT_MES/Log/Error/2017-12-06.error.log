@@ -1,0 +1,391 @@
+
+
+
+ 记录时间：2017-12-06 16:09:02,645 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'binMatrnRecord_matnrProcedure' cannot be found in database 'rfidsystem'.
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName)
+   在 MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   在 MySql.Data.MySqlClient.StoredProcedure.Resolve()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_saprfc20171206\rfidSystem_saprfc\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-12-06 16:10:05,124 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'binMatrnRecord_matnrProcedure' cannot be found in database 'rfidsystem'.
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName)
+   在 MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   在 MySql.Data.MySqlClient.StoredProcedure.Resolve()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_saprfc20171206\rfidSystem_saprfc\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-12-06 16:54:35,588 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'binmatrnrecord_matnr' cannot be found in database 'SELECT distinct matrn as text FROM rfidsystem'.
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName)
+   在 MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   在 MySql.Data.MySqlClient.StoredProcedure.Resolve()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_saprfc20171206\rfidSystem_saprfc\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-12-06 16:54:40,601 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'binmatrnrecord_matnr' cannot be found in database 'SELECT distinct matrn as text FROM rfidsystem'.
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName)
+   在 MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   在 MySql.Data.MySqlClient.StoredProcedure.Resolve()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_saprfc20171206\rfidSystem_saprfc\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-12-06 16:56:32,690 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'binmatrnrecord_matnr' cannot be found in database 'SELECT distinct matrn as text FROM rfidsystem'.
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName)
+   在 MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   在 MySql.Data.MySqlClient.StoredProcedure.Resolve()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_saprfc20171206\rfidSystem_saprfc\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-12-06 16:57:40,363 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'SELECT distinct matrn as text FROM binmatrnrecord_matnr' cannot be found in database 'rfidsystem'.
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName)
+   在 MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   在 MySql.Data.MySqlClient.StoredProcedure.Resolve()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_saprfc20171206\rfidSystem_saprfc\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-12-06 16:59:18,718 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'SELECT distinct matrn as Text FROM binmatrnrecord_matnr' cannot be found in database 'rfidsystem'.
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName)
+   在 MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   在 MySql.Data.MySqlClient.StoredProcedure.Resolve()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_saprfc20171206\rfidSystem_saprfc\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-12-06 16:59:21,829 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'SELECT distinct matrn as Text FROM binmatrnrecord_matnr' cannot be found in database 'rfidsystem'.
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName)
+   在 MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   在 MySql.Data.MySqlClient.StoredProcedure.Resolve()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_saprfc20171206\rfidSystem_saprfc\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-12-06 16:59:22,646 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'SELECT distinct matrn as Text FROM binmatrnrecord_matnr' cannot be found in database 'rfidsystem'.
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName)
+   在 MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   在 MySql.Data.MySqlClient.StoredProcedure.Resolve()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_saprfc20171206\rfidSystem_saprfc\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-12-06 16:59:23,318 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'SELECT distinct matrn as Text FROM binmatrnrecord_matnr' cannot be found in database 'rfidsystem'.
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName)
+   在 MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   在 MySql.Data.MySqlClient.StoredProcedure.Resolve()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_saprfc20171206\rfidSystem_saprfc\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-12-06 16:59:23,922 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'SELECT distinct matrn as Text FROM binmatrnrecord_matnr' cannot be found in database 'rfidsystem'.
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName)
+   在 MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   在 MySql.Data.MySqlClient.StoredProcedure.Resolve()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_saprfc20171206\rfidSystem_saprfc\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-12-06 17:00:12,401 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'SELECT distinct matrn as Text FROM binmatrnrecord_matnr' cannot be found in database 'rfidsystem'.
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName)
+   在 MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   在 MySql.Data.MySqlClient.StoredProcedure.Resolve()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_saprfc20171206\rfidSystem_saprfc\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-12-06 17:00:16,426 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'SELECT distinct matrn as Text FROM binmatrnrecord_matnr' cannot be found in database 'rfidsystem'.
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName)
+   在 MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   在 MySql.Data.MySqlClient.StoredProcedure.Resolve()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_saprfc20171206\rfidSystem_saprfc\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-12-06 17:00:17,187 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'SELECT distinct matrn as Text FROM binmatrnrecord_matnr' cannot be found in database 'rfidsystem'.
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName)
+   在 MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   在 MySql.Data.MySqlClient.StoredProcedure.Resolve()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_saprfc20171206\rfidSystem_saprfc\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-12-06 17:00:18,280 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'SELECT distinct matrn as Text FROM binmatrnrecord_matnr' cannot be found in database 'rfidsystem'.
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName)
+   在 MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   在 MySql.Data.MySqlClient.StoredProcedure.Resolve()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_saprfc20171206\rfidSystem_saprfc\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-12-06 17:01:03,301 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'SELECT distinct matrn as Text FROM binmatrnrecord_matnr' cannot be found in database 'rfidsystem'.
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName)
+   在 MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   在 MySql.Data.MySqlClient.StoredProcedure.Resolve()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_saprfc20171206\rfidSystem_saprfc\rfidSystem.Factory\SqlHelps.cs:行号 37
+
+
+
+ 记录时间：2017-12-06 17:01:51,513 
+日志级别：  ERROR 
+出错类：Logger  
+错误描述：其他错误 
+
+MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function 'SELECT distinct matrn as Text FROM binmatrnrecord_matnr' cannot be found in database 'rfidsystem'.
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   在 MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName)
+   在 MySql.Data.MySqlClient.StoredProcedure.GetParameters(String procName)
+   在 MySql.Data.MySqlClient.StoredProcedure.Resolve()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   在 Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Factory.SqlHelps.SqlProcedure[T](String procedureName, Object obj) 位置 c:\Users\sai.zhuwen\Documents\程序\博世华域\rfidSystem_saprfc20171206\rfidSystem_saprfc\rfidSystem.Factory\SqlHelps.cs:行号 37

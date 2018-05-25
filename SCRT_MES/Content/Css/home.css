@@ -1,0 +1,238 @@
+﻿#file_upload
+{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#Panel10
+{
+    margin-left: 130px;
+    margin-top: 150px;
+}
+
+#Panel1 *
+{
+    color: black;
+}
+
+#Panel19
+{
+    margin-left: 260px;
+    margin-top: 150px;
+}
+
+.tb
+{
+    width: 100%;
+    height: 100%;
+    border: 0px solid black;
+    text-align: center;
+}
+
+#dd
+{
+    background-color: #3a873a;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: -20px -3px 10px 10px;
+    float: left;
+}
+
+#dd1
+{
+    background-color: #c33430;
+    width: 30px;
+    height: 30px;
+    margin: 20px 20px -25px -25px;
+    border-radius: 50px;
+    float: left;
+}
+
+#kkl
+{
+    position: absolute;
+    margin-top: -3px;
+    padding-left: 3px;
+    margin: -15px 5px 0px 5px;
+}
+
+#kkl1
+{
+    position: absolute;
+    padding-top: -5px;
+    padding-left: 8px;
+    margin: 28px 5px 0px -25px;
+}
+
+#Panel1
+{
+    background: url("../../Content/Images/logo.png") no-repeat;
+}
+
+#Panel1-body
+{
+    background: none;
+}
+
+#aaa
+{
+    background-color: blue;
+}
+
+.clock
+{
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cbStates-list
+{
+    width: auto;
+    font: 11px tahoma,arial,helvetica,sans-serif;
+}
+
+    .cbStates-list th
+    {
+        font-weight: bold;
+    }
+
+    .cbStates-list td, .cbStates-list th
+    {
+        padding: 3px;
+    }
+
+.mytoolbar
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.fieldset
+{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#gis_select_table_box table
+{
+    font-size: 12px;
+    width: 100%;
+    background: gray;
+}
+
+#gis_select_table_box table
+{
+    border-spacing: 1px;
+    border-collapse: separate;
+    background: gray;
+}
+
+
+    #gis_select_table_box table th
+    {
+        background: #d4d4d4;
+        text-align: center;
+    }
+
+    #gis_select_table_box table td
+    {
+        background: white;
+        text-align: center;
+    }
+
+#gis_select_panel .x-panel-body
+{
+    overflow-y: scroll;
+}
+
+.esriPopup .actionsPane .zoomTo
+{
+    display: none;
+}
+
+.active_choose_type
+{
+    color: red;
+}
+
+
+#mapDiv
+{
+    width: 100%!important;
+}
+
+
+.cbStates-list
+{
+    width: auto;
+    font: 11px tahoma,arial,helvetica,sans-serif;
+}
+
+    .cbStates-list th
+    {
+        font-weight: bold;
+    }
+
+    .cbStates-list td, .cbStates-list th
+    {
+        padding: 3px;
+    }
+
+.mytoolbar
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.x-tip-body
+{
+    font-size: 14px!important;
+}
+
+.ui-autocomplete
+{
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-size: 12px;
+}
+
+.ui-menu-item
+{
+    font-size: 12px;
+}
+
+.labCss
+{
+    font-size: 10px;
+}
+
+#treeview-1015
+{
+    border-right: solid 2px #428BCA;
+    border-bottom: solid 2px #428BCA;
+}
+
+#Panel1-innerCt
+{
+    /*background: url(../../Images/rr.jpg) no-repeat;*/
+    border-bottom: solid 2px #428BCA;
+}
+
+#menuTree_header
+{
+    border-right: solid 3px #428BCA;
+}
+
+.x-noborder-trl
+    {
+        border-top-width: 0!important;
+        border-right-width: initial!important;
+        border-left-width: 0!important;
+    }
