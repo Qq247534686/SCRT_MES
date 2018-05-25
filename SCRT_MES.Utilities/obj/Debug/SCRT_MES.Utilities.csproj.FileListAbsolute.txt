@@ -15,3 +15,14 @@ C:\Users\24753\Videos\rfidSystem_saprfc\SCRT_MES.Utilities\bin\Debug\SCRT_MES.Mo
 C:\Users\24753\Videos\rfidSystem_saprfc\SCRT_MES.Utilities\bin\Debug\SCRT_MES.IMode.dll
 C:\Users\24753\Videos\rfidSystem_saprfc\SCRT_MES.Utilities\bin\Debug\SCRT_MES.Model.pdb
 C:\Users\24753\Videos\rfidSystem_saprfc\SCRT_MES.Utilities\bin\Debug\SCRT_MES.IMode.pdb
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.Utilities\bin\Debug\SCRT_MES.Utilities.dll
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.Utilities\bin\Debug\SCRT_MES.Utilities.pdb
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.Utilities\bin\Debug\log4net.dll
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.Utilities\bin\Debug\SCRT_MES.Model.dll
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.Utilities\bin\Debug\SCRT_MES.IMode.dll
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.Utilities\bin\Debug\SCRT_MES.Model.pdb
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.Utilities\bin\Debug\log4net.xml
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.Utilities\bin\Debug\SCRT_MES.IMode.pdb
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.Utilities\obj\Debug\SCRT_MES.Utilities.csprojResolveAssemblyReference.cache
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.Utilities\obj\Debug\SCRT_MES.Utilities.dll
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.Utilities\obj\Debug\SCRT_MES.Utilities.pdb

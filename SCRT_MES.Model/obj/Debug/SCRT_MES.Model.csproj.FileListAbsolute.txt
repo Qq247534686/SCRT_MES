@@ -13,3 +13,10 @@ C:\Users\24753\Videos\rfidSystem_saprfc\SCRT_MES.Model\obj\Debug\SCRT_MES.Model.
 C:\Users\24753\Videos\rfidSystem_saprfc\SCRT_MES.Model\obj\Debug\SCRT_MES.Model.pdb
 C:\Users\24753\Videos\rfidSystem_saprfc\SCRT_MES.Model\bin\Debug\SCRT_MES.IMode.dll
 C:\Users\24753\Videos\rfidSystem_saprfc\SCRT_MES.Model\bin\Debug\SCRT_MES.IMode.pdb
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.Model\bin\Debug\SCRT_MES.Model.dll
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.Model\bin\Debug\SCRT_MES.Model.pdb
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.Model\bin\Debug\SCRT_MES.IMode.dll
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.Model\bin\Debug\SCRT_MES.IMode.pdb
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.Model\obj\Debug\SCRT_MES.Model.csprojResolveAssemblyReference.cache
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.Model\obj\Debug\SCRT_MES.Model.dll
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.Model\obj\Debug\SCRT_MES.Model.pdb

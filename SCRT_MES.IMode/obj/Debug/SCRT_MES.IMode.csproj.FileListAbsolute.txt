@@ -6,3 +6,8 @@ C:\Users\24753\Videos\rfidSystem_saprfc\SCRT_MES.IMode\bin\Debug\SCRT_MES.IMode.
 C:\Users\24753\Videos\rfidSystem_saprfc\SCRT_MES.IMode\bin\Debug\SCRT_MES.IMode.pdb
 C:\Users\24753\Videos\rfidSystem_saprfc\SCRT_MES.IMode\obj\Debug\SCRT_MES.IMode.dll
 C:\Users\24753\Videos\rfidSystem_saprfc\SCRT_MES.IMode\obj\Debug\SCRT_MES.IMode.pdb
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.IMode\bin\Debug\SCRT_MES.IMode.dll
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.IMode\bin\Debug\SCRT_MES.IMode.pdb
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.IMode\obj\Debug\SCRT_MES.IMode.csprojResolveAssemblyReference.cache
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.IMode\obj\Debug\SCRT_MES.IMode.dll
+C:\Users\24753\Documents\GitHub\SCRT_MES\SCRT_MES.IMode\obj\Debug\SCRT_MES.IMode.pdb
